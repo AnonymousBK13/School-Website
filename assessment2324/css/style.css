@@ -1,12 +1,14 @@
 /* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
 @font-face{
-    font-family: 'myfont';
+    font-family: Bricolage Grotesque;
     src: url('/css/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf');
 }
 
 * {
     text-decoration: none;  
-    font-family:'myfont', Arial, Helvetica, sans-serif;
+    font-family: 'Bricolage Grotesque';
+    margin: 0px; 
+    padding: 0px; 
 }
 
 body{
@@ -72,7 +74,7 @@ ul {
 
 main {
     width: 100%;
-    height: calc(100vh - 64px);
+    height: calc(80vh - 64px);
     background-image: url(../img/Homepage/Find\ Your\ Focus-\ The\ Power\ of\ Quiet\ Workspaces_BODY.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -86,3 +88,4 @@ main {
 main p, h1 {
     color: white;
 }
+

@@ -1,0 +1,26 @@
+.button {
+    display: inline-block;
+    padding: 0.6rem 1.8rem;
+    border-style: double;
+    border-width: 2px;
+    border-radius: 6px;
+    transition: background-color 0.2 ease;
+    background-color: #B37737;
+    color: white;
+    font-size: 1rem; 
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0E4F52;
+    color: #fff;
+}
+
+.button:active {
+    background-color: #0E4F52;
+    color: #fff;
+}
