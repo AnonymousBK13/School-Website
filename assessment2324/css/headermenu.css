@@ -1,0 +1,56 @@
+.logo{
+    height: 64px;
+    background-repeat: none; 
+    border-radius: 100px;
+}
+
+
+.navbar {
+    display: flex;
+    height: 64px; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B37737;
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.nav-logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: white; 
+    background: #CD9151;
+    font-size: 1rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.nav-button:hover {
+    background-color: #0E4F52;
+    color: white;
+}
+
+.nav-button:visited {
+    background-color: #0E4F52;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

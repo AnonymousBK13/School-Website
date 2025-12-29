@@ -2,15 +2,23 @@
     display: flex; 
     gap: 2rem; 
     flex-wrap: wrap; 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 150px;
 }
 
 .card {
     flex: 1 1 250px; 
     border-style: double; 
     border-width: 2px;
-    padding: 1.5rem; 
-    margin-top: 1rem;
+    margin-top: -5rem;
+    border-radius: 10px; 
     background: #CD9151; 
+    text-align: center;
+    	bottom: 0px;
+
 }
 
 .card h2{
@@ -20,4 +28,9 @@
 
 .card p {
     line-height: 1.6;
+}
+ 
+
+.card a {
+    
 }

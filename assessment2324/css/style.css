@@ -7,69 +7,23 @@
 * {
     text-decoration: none;  
     font-family: 'Bricolage Grotesque';
+    letter-spacing: normal;
+    line-height: normal; 
+    text-indent: 0%;
+    word-spacing: normal;
     margin: 0px; 
     padding: 0px; 
 }
+
+h1 {font-size: 48px;}
+h2 {font-size: 40px;}
+h3 {font-size: 32px;}
+h4 {font-size: 24px;}
+h5 {font-size: 20px;}
 
 body{
     margin: 0px; 
     padding: 0px; 
-}
-
-.logo{
-    height: 64px;
-    background-repeat: none; 
-    padding-left: 15px;
-}
-
-
-.navbar {
-    display: flex;
-    height: 64px; 
-    justify-content: space-between;
-    align-items: center;
-    background-color: #B37737;
-}
-
-.nav-link {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-    margin: 0;
-    padding: 15px;
-}
-
-.nav-logo {
-    font-size: 1.2rem;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.nav-button {
-    text-decoration: none;
-    color: white; 
-    background: #CD9151;
-    font-size: 1rem;
-    padding: 0.4rem 0.9rem;
-    border-radius: 6px;
-    transition: background-color 0.2s ease;
-}
-
-.nav-button:hover {
-    background-color: #0E4F52;
-    color: white;
-}
-
-.nav-button:visited {
-    background-color: #0E4F52;
-}
-
-ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 main {
@@ -86,6 +40,24 @@ main {
 }
 
 main p, h1 {
-    color: white;
+        color: white;
 }
+
+/* Mobile font-size adjustments */
+@media (max-width: 600px) {
+    h1 { font-size: 28px; }
+    h2 { font-size: 22px; }
+    h3 { font-size: 20px; }
+    h4 { font-size: 18px; }
+    h5 { font-size: 16px; }
+    p  { font-size: 15px; }
+}
+
+/* Example using clamp() for more fluid scaling (optional)
+@media (max-width: 600px) {
+    h1 { font-size: clamp(20px, 5vw, 28px); }
+    h2 { font-size: clamp(18px, 4.2vw, 22px); }
+    p  { font-size: clamp(14px, 3.6vw, 16px); }
+}
+*/
 
