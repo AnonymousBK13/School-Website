@@ -1,130 +1,129 @@
-<!-- add all items from grading group 1 and 2. Search for items in group 5 that refer to css f.e. author attribute value-->
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="Berkay Kaya">
-        <meta name="description" content="A brief description of the webpage.">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>The Digital Nomad</title>
-        <link rel="icon" type="image/png" href="#">
-        <link rel="stylesheet" type="text/css" href="../assessment2324/css/style.css" />
-        <link rel="stylesheet" type="text/css" href="../assessment2324/css/headermenu.css" />
-        <link rel="stylesheet" type="text/css" href="../assessment2324/css/cardhomepage.css" />
-        <link rel="stylesheet" type="text/css" ref="../assessment2324/css/button.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Berkay Kaya">
+    <meta name="description" content="Find your perfect public workspace in Amsterdam. Discover cozy cafes, modern coworking spaces, and quiet libraries with Wi-Fi and comfortable seating for digital nomads.">
+    <meta name="keywords" content="digital nomad, coworking space, Amsterdam workspaces, remote work, cafe workspace">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Digital Nomad - Find Your Perfect Workspace</title>
+    <link rel="icon" type="image/png" href="../assessment2324/img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="../assessment2324/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assessment2324/css/homepage.css">
+</head>
 <body>
-<header>
-    <nav class="navbar">
-        <figure>
-            <img class="logo" src="../assessment2324/img/The Digital Nomad Monochrome Logo.png" alt="Digital Nomad Website Logo" 
-            title="Website Logo">
-        </figure>
-<!-- Header Menu-->
-        <ul class="nav-link">
-            <li><a class="nav-button" href="../assessment2324/index.html">Home</a></li>
-            <li><a class="nav-button" href="../assessment2324/VolksHotel.html">Volks Hotel</a></li>
-            <li><a class="nav-button" href="../assessment2324/TheCoffeeVirus.html">The Coffee Virus</a></li>
-            <li><a class="nav-button" href="../assessment2324/OBALibrary.html">OBA Library</a></li>
-            <li><a class="nav-button" href="../assessment2324/thestartupvillage.html">The Startup Village</a></li>
-            <li><a class="nav-button" href="../assessment2324/contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Cookie notification with z-index -->
+    <input type="checkbox" id="cookie-toggle" class="cookie-toggle">
+    <aside class="cookie-banner">
+        <p>We use cookies to improve your experience. By continuing, you accept our cookie policy. <a href="#">Learn more</a></p>
+        <label for="cookie-toggle" class="cookie-close">Accept</label>
+    </aside>
 
-</header>
-<main> 
-    <section class="hero">
-        <article>
-            <h1>Find your public space to work in</h1>
-            <aside>
-                <p>The <strong>perfect</strong> public space for work with Wi-Fi, enough outlets and comfortable seating.</p>
-            </aside>
-            <li><em><a class="nav-button" href="#">Explore Your First Location</a></em></li>
-        </article>
-        
-    </section>
-</main>
+    <header>
+        <nav class="navbar">
+            <figure>
+                <img class="logo" src="../assessment2324/img/The Digital Nomad Monochrome Logo.png" alt="Digital Nomad Website Logo" title="The Digital Nomad - Your Workspace Guide">
+            </figure>
+            
+            <!-- CSS-only Hamburger Menu -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </label>
 
-<section class="cards">
+            <!-- Header Menu -->
+            <ul class="nav-link">
+                <li><a class="nav-button" href="../assessment2324/index.html">Home</a></li>
+                <li><a class="nav-button" href="../assessment2324/VolksHotel.html">Volks Hotel</a></li>
+                <li><a class="nav-button" href="../assessment2324/TheCoffeeVirus.html">The Coffee Virus</a></li>
+                <li><a class="nav-button" href="../assessment2324/OBALibrary.html">OBA Library</a></li>
+                <li><a class="nav-button" href="../assessment2324/thestartupvillage.html">The Startup Village</a></li>
+                <li><a class="nav-button" href="../assessment2324/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <article class="card"> 
+    <main> 
+        <section class="hero">
+            <article>
+                <h1>Find your perfect public space to work in</h1>
+                <aside>
+                    <p>The <strong>perfect</strong> public space for work with Wi-Fi, enough outlets and comfortable seating.</p>
+                </aside>
+                <a class="hero-button" href="#cards-section"><em>Explore Now</em></a>
+            </article>
+        </section>
+    </main>
+
+    <section class="cards" id="cards-section">
+        <article class="card"> 
             <h3>Volks Hotel</h3>
             <p>A trendy hotel with a vibrant atmosphere, perfect for digital nomads looking for a lively workspace.</p>
-                <a href="../assessment2324/VolksHotel.html" class="button">
-            View location
-        </a>
-    </article>
+            <a href="../assessment2324/VolksHotel.html" class="button">View location</a>
+        </article>
 
-    <article class="card"> 
+        <article class="card"> 
             <h3>The Coffee Virus</h3>
             <p>A cozy coffee shop offering a quiet environment, great coffee, and reliable Wi-Fi for focused work sessions.</p>
-                <a href="../assessment2324/TheCoffeeVirus.html" class="button">
-            View location
-        </a>
-    </article>
+            <a href="../assessment2324/TheCoffeeVirus.html" class="button">View location</a>
+        </article>
 
-    <article class="card">
+        <article class="card">
             <h3>OBA Library</h3>
             <p>A spacious library with ample seating, quiet zones, and high-speed internet, ideal for deep work and research.</p>
-                <a href="../assessment2324/OBALibrary.html" class="button">
-            View location
-        </a>
-    </article>
+            <a href="../assessment2324/OBALibrary.html" class="button">View location</a>
+        </article>
 
-    <article class="card">
+        <article class="card">
             <h3>The Startup Village</h3>
             <p>A collaborative coworking space designed for entrepreneurs and freelancers, featuring modern amenities and networking opportunities.</p>
-                <a href="../assessment2324/contact.html" class="button">
-            View location
-        </a>
-    </article>
+            <a href="../assessment2324/thestartupvillage.html" class="button">View location</a>
+        </article>
+    </section>
 
-</section>
+    <section class="split">
+        <figure>
+            <img src="../assessment2324/img/cafe-workspace.jpg" alt="A modern cafe workspace with people working on laptops" title="Collaborative Workspace Environment">
+            <figcaption>Modern Cafe Workspace</figcaption>
+        </figure>
 
-<section class="split">
+        <article>
+            <h2>Your ideal spot, matched to your workflow</h2>
+            <p>Browse curated workspaces across Amsterdam. Compare vibes, amenities, and atmosphere to find your perfect match &amp; boost productivity.</p>
+            <a href="#cards-section" class="explore-button">Explore Your Next Location</a>
+        </article>
+    </section>
 
-    <figure>
-        <img src="../assessment2324/images/cafe-workspace.jpg" alt="A modern cafe workspace with people working on laptops.">
-        <figcaption>Cafe Workspace</figcaption>
-    </figure>
+    <section class="info">
+        <article>
+            <h2>Help others find the best work spots</h2>
+            <p>Share feedback and recommend locations. Your insights help improve the experience for everyone. Join our community today!</p>
+            <a href="../assessment2324/contact.html" class="cta-button">Share Your Experience</a>
+        </article>
+    </section>
 
-    <article>
-        <h2>Your ideal spot, Matched to your workflow</h2>
-        <p>
-            Browse curated workspaces across Amsterdam, Compare vibes, amenities and atmosphere.
-        </p>
-    </article>
+    <section class="map-section">
+        <h2>Discover Workspaces Near You</h2>
+        <figure>
+            <img src="../assessment2324/img/amsterdam-map.jpg" alt="Map showing various workspace locations across Amsterdam" title="Amsterdam Workspace Map">
+            <figcaption>Interactive workspace locations across Amsterdam</figcaption>
+        </figure>
+    </section>
 
-</section>
-
-<section class="info">
-
-    <article>
-        <h2>Help others find the best work spots.</h2>
-        <p>
-            Share feedback and recommend locations. Your insights help improve the experience for everyone.
-        </p>
-    </article>
-
-</section>
-
-<footer>
-    <nav>
-        <ul>
-            <a class="nav-button" href="../assessment2324/index.html">Home</a>
-            <a class="nav-button" href="../assessment2324/VolksHotel.html">Volks Hotel</a>
-            <a class="nav-button" href="../assessment2324/TheCoffeeVirus.html">The Coffee Virus</a>
-            <a class="nav-button" href="../assessment2324/OBALibrary.html">OBA Library</a>
-            <a class="nav-button" href="../assessment2324/thestartupvillage.html">The Startup Village</a>
-            <a class="nav-button" href="../assessment2324/contact.html">Contact</a>
-        </ul>
-    </nav>
-    <p>&copy; 2025 Berkay. All rights reserved.</p>
-</footer>
-
-
+    <footer>
+        <nav>
+            <ul class="footer-nav">
+                <li><a class="footer-link" href="../assessment2324/index.html">Home</a></li>
+                <li><a class="footer-link" href="../assessment2324/VolksHotel.html">Volks Hotel</a></li>
+                <li><a class="footer-link" href="../assessment2324/TheCoffeeVirus.html">The Coffee Virus</a></li>
+                <li><a class="footer-link" href="../assessment2324/OBALibrary.html">OBA Library</a></li>
+                <li><a class="footer-link" href="../assessment2324/thestartupvillage.html">The Startup Village</a></li>
+                <li><a class="footer-link" href="../assessment2324/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2025 Berkay Kaya. All rights reserved. The Digital Nomad&trade;</p>
+    </footer>
 </body>
 </html>

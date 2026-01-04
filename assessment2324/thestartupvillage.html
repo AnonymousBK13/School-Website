@@ -1,36 +1,128 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="Berkay Kaya">
-        <meta name="description" content="A brief description of the webpage.">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>The Digital Nomad</title>
-        <link rel="stylesheet" type="text/css" href="../assessment2324/css/style.css" />
-        <link rel="stylesheet" type="text/css" href="../assessment2324/css/headermenu.css" />
-        <link rel="stylesheet" type="text/css" href="../assessment2324/css/cardhomepage.css" />
-        <link rel="stylesheet" type="text/css" href="../assessment2324/css/button.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Berkay Kaya">
+    <meta name="description" content="The Startup Village - A collaborative coworking space designed for entrepreneurs and freelancers, featuring modern amenities and networking opportunities in Amsterdam.">
+    <meta name="keywords" content="Startup Village, coworking Amsterdam, entrepreneur space, startup hub, networking space">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Startup Village - The Digital Nomad</title>
+    <link rel="icon" type="image/png" href="../assessment2324/img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="../assessment2324/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assessment2324/css/detailpages.css">
+</head>
 <body>
-<header>
-    <nav class="navbar">
-        <img class="logo" src="img/The Digital Nomad Monochrome Logo.png" alt="website logo">
-        <ul class="nav-link">
-            <li><a class="nav-button" href="../assessment2324/index.html">Home</a></li>
-            <li><a class="nav-button" href="../assessment2324/VolksHotel.html">Volks Hotel</a></li>
-            <li><a class="nav-button" href="../assessment2324/TheCoffeeVirus.html">The Coffee Virus</a></li>
-            <li><a class="nav-button" href="../assessment2324/OBALibrary.html">OBA Library</a></li>
-            <li><a class="nav-button" href="../assessment2324/thestartupvillage.html">The Startup Village</a></li>
-            <li><a class="nav-button" href="../assessment2324/contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- Cookie notification with z-index -->
+    <input type="checkbox" id="cookie-toggle" class="cookie-toggle">
+    <aside class="cookie-banner">
+        <p>We use cookies to improve your experience. By continuing, you accept our cookie policy. <a href="#">Learn more</a></p>
+        <label for="cookie-toggle" class="cookie-close">Accept</label>
+    </aside>
 
+    <header>
+        <nav class="navbar">
+            <figure>
+                <img class="logo" src="../assessment2324/img/The Digital Nomad Monochrome Logo.png" alt="Digital Nomad Website Logo" title="The Digital Nomad - Your Workspace Guide">
+            </figure>
+            
+            <!-- CSS-only Hamburger Menu -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </label>
+
+            <!-- Header Menu -->
+            <ul class="nav-link">
+                <li><a class="nav-button" href="../assessment2324/index.html">Home</a></li>
+                <li><a class="nav-button" href="../assessment2324/VolksHotel.html">Volks Hotel</a></li>
+                <li><a class="nav-button" href="../assessment2324/TheCoffeeVirus.html">The Coffee Virus</a></li>
+                <li><a class="nav-button" href="../assessment2324/OBALibrary.html">OBA Library</a></li>
+                <li><a class="nav-button" href="../assessment2324/thestartupvillage.html">The Startup Village</a></li>
+                <li><a class="nav-button" href="../assessment2324/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with Image and Text -->
+        <section class="detail-hero">
+            <figure class="detail-hero-image">
+                <img src="../assessment2324/img/startup-village-exterior.jpg" alt="The Startup Village colorful shipping container workspace" title="The Startup Village Amsterdam">
+                <figcaption>Innovative workspace at The Startup Village</figcaption>
+            </figure>
+
+            <article class="detail-hero-content">
+                <h1>The Startup Village</h1>
+                <p>
+                    Step into Amsterdam&apos;s most dynamic entrepreneurial ecosystem at The Startup Village. This innovative coworking space is purpose-built for startups, freelancers, and forward-thinking professionals who thrive in collaborative environments. Located in a creatively repurposed space featuring colorful shipping containers and modern design elements, The Startup Village embodies the spirit of innovation and community. Here, you&apos;ll find more than just a desk &ndash; you&apos;ll discover a network of ambitious individuals, regular networking events, mentorship opportunities, and the energy that comes from being surrounded by people building the future.
+                </p>
+            </article>
+        </section>
+
+        <!-- Feature Cards Section -->
+        <section class="detail-cards">
+            <article class="detail-card">
+                <h3>Vibrant Community</h3>
+                <p>Connect with entrepreneurs, startups, and innovative professionals daily.</p>
+            </article>
+
+            <article class="detail-card">
+                <h3>Modern Amenities</h3>
+                <p>State-of-the-art facilities including meeting rooms and event spaces.</p>
+            </article>
+
+            <article class="detail-card">
+                <h3>Networking Events</h3>
+                <p>Regular workshops, pitch sessions, and community gatherings to grow your network.</p>
+            </article>
+        </section>
+
+        <!-- Content Section - Text Left, Image Right -->
+        <section class="detail-content">
+            <article class="detail-content-text">
+                <h2>What Working Here Feels Like</h2>
+                <p>
+                    The Startup Village buzzes with entrepreneurial energy from morning until night. Unlike traditional offices or quiet libraries, this space is designed for collaboration and connection. You&apos;ll overhear pitch practices, see impromptu brainstorming sessions on whiteboards, and witness the kind of serendipitous meetings that lead to partnerships and innovations. The open layout encourages interaction while still providing private spaces for focused work or client calls. The community managers actively foster connections, introducing members who might benefit from each other&apos;s expertise. It&apos;s an environment where asking for advice, sharing resources, and celebrating wins together is the norm.
+                </p>
+            </article>
+
+            <figure class="detail-content-image">
+                <img src="../assessment2394/img/startup-village-workspace.jpg" alt="Collaborative workspace interior at The Startup Village" title="Startup Village Work Environment">
+                <figcaption>Dynamic coworking environment</figcaption>
+            </figure>
+        </section>
+
+        <!-- Testimonial Section - Image Left, Text Right -->
+        <section class="detail-testimonial">
+            <figure class="detail-testimonial-image">
+                <img src="../assessment2324/img/startup-village-community.jpg" alt="Community working together at The Startup Village" title="Startup Village Community">
+                <figcaption>Collaborative community space</figcaption>
+            </figure>
+
+            <article class="detail-testimonial-content">
+                <h2>Why Visit The Startup Village</h2>
+                <p>
+                    The Startup Village isn&apos;t just about the physical space &ndash; it&apos;s about being part of a movement. Whether you&apos;re launching your first startup, scaling an existing business, or working as a freelancer who values community over isolation, this is where magic happens. Members have access to mentorship programs, investor connections, and a support system that understands the unique challenges of entrepreneurship. The village regularly hosts events ranging from technical workshops to networking mixers, creating countless opportunities for growth, learning, and partnership. If you&apos;re serious about building something meaningful and want to do it alongside others on the same journey, The Startup Village is your home base in Amsterdam.
+                </p>
+                <a href="../assessment2324/contact.html" class="detail-cta-button">Share Your Experience</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul class="footer-nav">
+                <li><a class="footer-link" href="../assessment2324/index.html">Home</a></li>
+                <li><a class="footer-link" href="../assessment2324/VolksHotel.html">Volks Hotel</a></li>
+                <li><a class="footer-link" href="../assessment2324/TheCoffeeVirus.html">The Coffee Virus</a></li>
+                <li><a class="footer-link" href="../assessment2324/OBALibrary.html">OBA Library</a></li>
+                <li><a class="footer-link" href="../assessment2324/thestartupvillage.html">The Startup Village</a></li>
+                <li><a class="footer-link" href="../assessment2324/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2025 Berkay Kaya. All rights reserved. The Digital Nomad&trade;</p>
+    </footer>
 </body>
-<footer class="site-footer">
-  <p>© 2025 Berkay. All rights reserved.</p>
-</footer>
 </html>

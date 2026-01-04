@@ -1,36 +1,128 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="Berkay Kaya">
-        <meta name="description" content="A brief description of the webpage.">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>The Digital Nomad</title>
-        <link rel="stylesheet" type="text/css" href="../assessment2324/css/style.css" />
-        <link rel="stylesheet" type="text/css" href="../assessment2324/css/headermenu.css" />
-        <link rel="stylesheet" type="text/css" href="../assessment2324/css/cardhomepage.css" />
-        <link rel="stylesheet" type="text/css" ref="../assessment2324/css/button.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Berkay Kaya">
+    <meta name="description" content="Volks Hotel - The creative home for nomads in Amsterdam. A trendy hotel with vibrant atmosphere, perfect for digital nomads seeking a lively workspace.">
+    <meta name="keywords" content="Volks Hotel, Amsterdam workspace, creative space, digital nomad, coworking">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volks Hotel - The Digital Nomad</title>
+    <link rel="icon" type="image/png" href="../assessment2324/img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="../assessment2324/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assessment2324/css/detailpages.css">
+</head>
 <body>
-<header>
-    <nav class="navbar">
-        <img class="logo" src="img/The Digital Nomad Monochrome Logo.png" alt="website logo">
-        <ul class="nav-link">
-            <li><a class="nav-button" href="../assessment2324/index.html">Home</a></li>
-            <li><a class="nav-button" href="../assessment2324/VolksHotel.html">Volks Hotel</a></li>
-            <li><a class="nav-button" href="../assessment2324/TheCoffeeVirus.html">The Coffee Virus</a></li>
-            <li><a class="nav-button" href="../assessment2324/OBALibrary.html">OBA Library</a></li>
-            <li><a class="nav-button" href="../assessment2324/thestartupvillage.html">The Startup Village</a></li>
-            <li><a class="nav-button" href="../assessment2324/contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- Cookie notification with z-index -->
+    <input type="checkbox" id="cookie-toggle" class="cookie-toggle">
+    <aside class="cookie-banner">
+        <p>We use cookies to improve your experience. By continuing, you accept our cookie policy. <a href="#">Learn more</a></p>
+        <label for="cookie-toggle" class="cookie-close">Accept</label>
+    </aside>
 
+    <header>
+        <nav class="navbar">
+            <figure>
+                <img class="logo" src="../assessment2324/img/The Digital Nomad Monochrome Logo.png" alt="Digital Nomad Website Logo" title="The Digital Nomad - Your Workspace Guide">
+            </figure>
+            
+            <!-- CSS-only Hamburger Menu -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </label>
+
+            <!-- Header Menu -->
+            <ul class="nav-link">
+                <li><a class="nav-button" href="../assessment2324/index.html">Home</a></li>
+                <li><a class="nav-button" href="../assessment2324/VolksHotel.html">Volks Hotel</a></li>
+                <li><a class="nav-button" href="../assessment2324/TheCoffeeVirus.html">The Coffee Virus</a></li>
+                <li><a class="nav-button" href="../assessment2324/OBALibrary.html">OBA Library</a></li>
+                <li><a class="nav-button" href="../assessment2324/thestartupvillage.html">The Startup Village</a></li>
+                <li><a class="nav-button" href="../assessment2324/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with Image and Text -->
+        <section class="detail-hero">
+            <figure class="detail-hero-image">
+                <img src="../assessment2324/img/volks-hotel-main.jpg" alt="Volks Hotel workspace interior with people collaborating" title="Volks Hotel Creative Workspace">
+                <figcaption>Vibrant coworking space at Volks Hotel</figcaption>
+            </figure>
+
+            <article class="detail-hero-content">
+                <h1>Volks Hotel &ndash; The Creative Home for Nomads in Amsterdam</h1>
+                <p>
+                    Dive into a dynamic environment where creativity meets community at Volks Hotel. Located in Amsterdam&apos;s East district, this trendy hotspot offers an inspiring workspace combined with a vibrant social scene. Whether you&apos;re brainstorming your next big idea or networking with fellow nomads, Volks Hotel provides the perfect backdrop for productive work &amp; meaningful connections.
+                </p>
+            </article>
+        </section>
+
+        <!-- Feature Cards Section -->
+        <section class="detail-cards">
+            <article class="detail-card">
+                <h3>Great Ambiance</h3>
+                <p>Volks Hotel combines modern design with a lively atmosphere, perfect for creative work sessions.</p>
+            </article>
+
+            <article class="detail-card">
+                <h3>Fast WiFi</h3>
+                <p>Stay connected with high-speed internet access throughout the entire hotel workspace.</p>
+            </article>
+
+            <article class="detail-card">
+                <h3>Great Coffee</h3>
+                <p>Enjoy premium coffee and a full menu to keep you energized throughout your workday.</p>
+            </article>
+        </section>
+
+        <!-- Content Section - Text Left, Image Right -->
+        <section class="detail-content">
+            <article class="detail-content-text">
+                <h2>What is Like to Work at Volks Hotel</h2>
+                <p>
+                    At Volks Hotel, you&apos;ll find yourself in a buzzing hub of creativity and innovation. The open layout encourages collaboration while still offering quiet corners for focused work. With its industrial-chic design, comfortable seating, and abundant natural light, the space inspires productivity. The hotel&apos;s community-driven approach means you&apos;ll always find like-minded professionals to connect with over coffee or at one of their regular networking events.
+                </p>
+            </article>
+
+            <figure class="detail-content-image">
+                <img src="../assessment2324/img/volks-hotel-workspace.jpg" alt="Modern workspace at Volks Hotel with natural lighting" title="Volks Hotel Work Environment">
+                <figcaption>Bright and inspiring workspace</figcaption>
+            </figure>
+        </section>
+
+        <!-- Testimonial Section - Image Left, Text Right -->
+        <section class="detail-testimonial">
+            <figure class="detail-testimonial-image">
+                <img src="../assessment2324/img/volks-hotel-exterior.jpg" alt="Volks Hotel building exterior view" title="Volks Hotel Amsterdam">
+                <figcaption>Volks Hotel exterior</figcaption>
+            </figure>
+
+            <article class="detail-testimonial-content">
+                <h2>Why You Should Visit Volks Hotel Too</h2>
+                <p>
+                    Experience the digital nomad lifestyle at its finest. Volks Hotel is more than just a workspace &ndash; it&apos;s a community hub where innovation thrives. From early morning coffee sessions to late-night brainstorming, this venue offers the flexibility and amenities that modern remote workers need. Plus, with excellent connectivity to the rest of Amsterdam, you&apos;re never far from the city&apos;s vibrant culture and attractions.
+                </p>
+                <a href="../assessment2324/contact.html" class="detail-cta-button">Share Your Experience</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul class="footer-nav">
+                <li><a class="footer-link" href="../assessment2324/index.html">Home</a></li>
+                <li><a class="footer-link" href="../assessment2324/VolksHotel.html">Volks Hotel</a></li>
+                <li><a class="footer-link" href="../assessment2324/TheCoffeeVirus.html">The Coffee Virus</a></li>
+                <li><a class="footer-link" href="../assessment2324/OBALibrary.html">OBA Library</a></li>
+                <li><a class="footer-link" href="../assessment2324/thestartupvillage.html">The Startup Village</a></li>
+                <li><a class="footer-link" href="../assessment2324/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2025 Berkay Kaya. All rights reserved. The Digital Nomad&trade;</p>
+    </footer>
 </body>
-<footer class="site-footer">
-  <p>© 2025 Berkay. All rights reserved.</p>
-</footer>
 </html>

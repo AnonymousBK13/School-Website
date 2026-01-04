@@ -1,40 +1,128 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="Berkay Kaya">
-        <meta name="description" content="A brief description of the webpage.">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>The Digital Nomad</title>
-        <link rel="stylesheet" type="text/css" href="../assessment2324/css/style.css" />
-        <link rel="stylesheet" type="text/css" href="../assessment2324/css/headermenu.css" />
-        <link rel="stylesheet" type="text/css" href="../assessment2324/css/cardhomepage.css" />
-        <link rel="stylesheet" type="text/css" href="../assessment2324/css/button.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Berkay Kaya">
+    <meta name="description" content="The Coffee Virus - A cozy coffee shop in Amsterdam offering a quiet environment, great coffee, and reliable Wi-Fi for focused work sessions.">
+    <meta name="keywords" content="Coffee Virus, Amsterdam cafe, coffee shop workspace, digital nomad, remote work">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffee Virus - The Digital Nomad</title>
+    <link rel="icon" type="image/png" href="../assessment2324/img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="../assessment2324/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assessment2324/css/detailpages.css">
+</head>
 <body>
-<header>
-    <nav class="navbar">
-        <img class="logo" src="img/The Digital Nomad Monochrome Logo.png" alt="website logo">
-        <ul class="nav-link">
-            <li><a class="nav-button" href="../assessment2324/index.html">Home</a></li>
-            <li><a class="nav-button" href="../assessment2324/VolksHotel.html">Volks Hotel</a></li>
-            <li><a class="nav-button" href="../assessment2324/TheCoffeeVirus.html">The Coffee Virus</a></li>
-            <li><a class="nav-button" href="../assessment2324/OBALibrary.html">OBA Library</a></li>
-            <li><a class="nav-button" href="../assessment2324/thestartupvillage.html">The Startup Village</a></li>
-            <li><a class="nav-button" href="../assessment2324/contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- Cookie notification with z-index -->
+    <input type="checkbox" id="cookie-toggle" class="cookie-toggle">
+    <aside class="cookie-banner">
+        <p>We use cookies to improve your experience. By continuing, you accept our cookie policy. <a href="#">Learn more</a></p>
+        <label for="cookie-toggle" class="cookie-close">Accept</label>
+    </aside>
 
+    <header>
+        <nav class="navbar">
+            <figure>
+                <img class="logo" src="../assessment2324/img/The Digital Nomad Monochrome Logo.png" alt="Digital Nomad Website Logo" title="The Digital Nomad - Your Workspace Guide">
+            </figure>
+            
+            <!-- CSS-only Hamburger Menu -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </label>
+
+            <!-- Header Menu -->
+            <ul class="nav-link">
+                <li><a class="nav-button" href="../assessment2324/index.html">Home</a></li>
+                <li><a class="nav-button" href="../assessment2324/VolksHotel.html">Volks Hotel</a></li>
+                <li><a class="nav-button" href="../assessment2324/TheCoffeeVirus.html">The Coffee Virus</a></li>
+                <li><a class="nav-button" href="../assessment2324/OBALibrary.html">OBA Library</a></li>
+                <li><a class="nav-button" href="../assessment2324/thestartupvillage.html">The Startup Village</a></li>
+                <li><a class="nav-button" href="../assessment2324/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with Image and Text -->
+        <section class="detail-hero">
+            <figure class="detail-hero-image">
+                <img src="../assessment2324/img/coffee-virus-interior.jpg" alt="The Coffee Virus cafe interior with cozy seating" title="The Coffee Virus Workspace">
+                <figcaption>Cozy cafe atmosphere at The Coffee Virus</figcaption>
+            </figure>
+
+            <article class="detail-hero-content">
+                <h1>The Coffee Virus</h1>
+                <p>
+                    Nestled in the heart of Amsterdam, The Coffee Virus is a haven for those seeking a peaceful workspace paired with exceptional coffee. This charming cafe combines a warm, inviting atmosphere with all the essentials for productive remote work. With its comfortable seating, reliable Wi-Fi, and delicious menu, it&apos;s the perfect spot to settle in for a few hours &ndash; or the entire day. Whether you&apos;re drafting reports, brainstorming ideas, or catching up on emails, The Coffee Virus offers the ideal balance of focus &amp; relaxation.
+                </p>
+            </article>
+        </section>
+
+        <!-- Feature Cards Section -->
+        <section class="detail-cards">
+            <article class="detail-card">
+                <h3>Cozy Ambiance</h3>
+                <p>Enjoy a warm and inviting atmosphere perfect for focused work.</p>
+            </article>
+
+            <article class="detail-card">
+                <h3>Great Coffee</h3>
+                <p>Savor premium coffee crafted by skilled baristas.</p>
+            </article>
+
+            <article class="detail-card">
+                <h3>Reliable WiFi</h3>
+                <p>Stay connected with fast and stable internet throughout the cafe.</p>
+            </article>
+        </section>
+
+        <!-- Content Section - Text Left, Image Right -->
+        <section class="detail-content">
+            <article class="detail-content-text">
+                <h2>What it&apos;s Like to Work at The Coffee Virus</h2>
+                <p>
+                    Step into The Coffee Virus and you&apos;ll immediately feel at home. The cafe&apos;s thoughtfully designed interior features plenty of natural light, comfortable seating options, and a quiet ambiance that makes concentration easy. Unlike bustling chain cafes, this independent spot values its role as a workspace for creatives and professionals. You&apos;ll find fellow remote workers tapping away on laptops, small groups having productive meetings, and individuals enjoying their favorite brew while getting work done. The friendly staff respects the need for focus while still providing excellent service.
+                </p>
+            </article>
+
+            <figure class="detail-content-image">
+                <img src="../assessment2324/img/coffee-virus-workspace.jpg" alt="Laptop and coffee setup at The Coffee Virus" title="Perfect Work Setup">
+                <figcaption>Your ideal workspace setup</figcaption>
+            </figure>
+        </section>
+
+        <!-- Testimonial Section - Image Left, Text Right -->
+        <section class="detail-testimonial">
+            <figure class="detail-testimonial-image">
+                <img src="../assessment2324/img/coffee-virus-exterior.jpg" alt="The Coffee Virus storefront exterior" title="The Coffee Virus Amsterdam">
+                <figcaption>The Coffee Virus exterior</figcaption>
+            </figure>
+
+            <article class="detail-testimonial-content">
+                <h2>Why You Should Visit The Coffee Virus</h2>
+                <p>
+                    Beyond its excellent coffee and reliable workspace amenities, The Coffee Virus embodies the spirit of Amsterdam&apos;s thriving remote work culture. It&apos;s a place where productivity meets community, where you can work independently yet feel connected to a network of like-minded professionals. The cafe regularly attracts digital nomads, freelancers, and entrepreneurs who appreciate its authentic atmosphere and commitment to quality. Whether you need a quiet morning spot or an afternoon workspace with great energy, The Coffee Virus delivers every time.
+                </p>
+                <a href="../assessment2324/contact.html" class="detail-cta-button">Share Your Experience</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul class="footer-nav">
+                <li><a class="footer-link" href="../assessment2324/index.html">Home</a></li>
+                <li><a class="footer-link" href="../assessment2324/VolksHotel.html">Volks Hotel</a></li>
+                <li><a class="footer-link" href="../assessment2324/TheCoffeeVirus.html">The Coffee Virus</a></li>
+                <li><a class="footer-link" href="../assessment2324/OBALibrary.html">OBA Library</a></li>
+                <li><a class="footer-link" href="../assessment2324/thestartupvillage.html">The Startup Village</a></li>
+                <li><a class="footer-link" href="../assessment2324/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2025 Berkay Kaya. All rights reserved. The Digital Nomad&trade;</p>
+    </footer>
 </body>
-
-
-<footer class="site-footer">
-  <p>© 2025 Berkay. All rights reserved.</p>
-</footer>
-
-
 </html>

@@ -1,0 +1,298 @@
+/* 
+   HOMEPAGE SPECIFIC STYLES
+   (homepage.css) 
+*/
+
+/* First letter styling for hero section */
+.hero p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #CD9151;
+}
+
+/* 
+   MAIN HERO SECTION
+*/
+main {
+    width: 100%;
+    height: calc(80vh - 64px);
+    background-image: url(../img/Homepage/Find\ Your\ Focus-\ The\ Power\ of\ Quiet\ Workspaces_BODY.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: none;
+}
+
+.hero {
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 2rem;
+}
+
+.hero h1,
+.hero p {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero aside {
+    margin: 1.5rem 0;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: #CD9151;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero-button:hover {
+    background-color: #0E4F52;
+    transform: scale(1.05);
+}
+
+/* 
+   CARDS SECTION (Flexbox)
+*/
+.cards {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: -5rem auto 4rem auto;
+    position: relative;
+    justify-content: center;
+    z-index: 100;
+}
+
+.card {
+    flex: 1 1 250px;
+    border-style: double;
+    border-width: 4px;
+    border-color: #B37737;
+    border-radius: 15px;
+    background: #CD9151;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+    letter-spacing: 0.05rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.card p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.card .button {
+    display: inline-block;
+    background-color: #0E4F52;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.card .button:hover {
+    background-color: #B37737;
+}
+
+/* 
+   SPLIT SECTION
+*/
+.split {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 90%;
+    margin: 6rem auto;
+    flex-wrap: wrap;
+}
+
+.split figure {
+    flex: 1 1 400px;
+    position: relative;
+}
+
+.split figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.split figcaption {
+    text-align: center;
+    margin-top: 1rem;
+    font-style: italic;
+    color: #555;
+}
+
+.split article {
+    flex: 1 1 400px;
+    text-indent: 1rem;
+}
+
+.split article h2 {
+    margin-bottom: 1.5rem;
+    color: #B37737;
+}
+
+.split article p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.explore-button {
+    display: inline-block;
+    background-color: #CD9151;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #0E4F52;
+}
+
+/* 
+   INFO SECTION
+*/
+.info {
+    background-color: #CD9151;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: white;
+}
+
+.info article h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.info article p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #0E4F52;
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #B37737;
+    transform: scale(1.05);
+}
+
+/* ===================================
+   MAP SECTION
+   =================================== */
+.map-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.map-section h2 {
+    margin-bottom: 2rem;
+    color: #B37737;
+}
+
+.map-section figure {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.map-section figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.map-section figcaption {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #666;
+}
+
+/* 
+   RESPONSIVE DESIGN - MOBILE (<= 768px)
+*/
+@media (max-width: 768px) {
+    /* Hero section */
+    main {
+        height: 60vh;
+    }
+
+    .hero {
+        padding: 1rem;
+    }
+
+    /* Cards - stack vertically */
+    .cards {
+        flex-direction: column;
+        margin-top: 2rem;
+        gap: 1.5rem;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    /* Split section - stack */
+    .split {
+        flex-direction: column;
+        margin: 3rem auto;
+    }
+}
+
+/* 
+   RESPONSIVE DESIGN - PC (> 768px)
+*/
+@media (min-width: 769px) {
+    /* Ensure proper layout on desktop */
+    .split {
+        flex-direction: row;
+    }
+
+    .cards {
+        flex-direction: row;
+    }
+}

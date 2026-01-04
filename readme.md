@@ -8,3 +8,5 @@ To do list for next time:
 -Work on the footer menu --> CSS
 -style the paragraph text -->CSS
 -Start styling the contact form
+
+
